@@ -167,7 +167,7 @@ public class Pustakalaya extends JFrame {
             JOptionPane.showMessageDialog(this, "⚠ Kitab not found!");
         });
 
-        // Return Panel - Center aligned
+        // Return Panel 
         JPanel returnPanel = new JPanel(new GridBagLayout());
         returnPanel.setBackground(new Color(230, 240, 255));
         returnPanel.setBorder(BorderFactory.createTitledBorder("Return Kitab"));

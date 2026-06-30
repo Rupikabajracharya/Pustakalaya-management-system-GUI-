@@ -1,13 +1,12 @@
 package pustakalaya;
 
-// Kitab.java - Represents a book in the library
 public class Kitab {
     private String title;    
     private String author;   
     private boolean borrowed; 
-    private String borrowerName; // store borrower's name
+    private String borrowerName; 
 
-    // Constructor
+   
     public Kitab(String title, String author) {
         this.title = title;
         this.author = author;
@@ -23,13 +22,13 @@ public class Kitab {
         return borrowed;
     }
 
-    // Borrow book with borrower name
+    
     public void borrow(String name) {
         borrowed = true;
         borrowerName = name;
     }
 
-    // Return book
+    
     public void returnBook() {
         borrowed = false;
         borrowerName = "";

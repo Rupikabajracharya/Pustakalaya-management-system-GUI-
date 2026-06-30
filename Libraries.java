@@ -6,7 +6,7 @@ public class Libraries {
     private ArrayList<Kitab> books = new ArrayList<>();
 
     public Libraries() {
-        // Sample books initially
+      
         books.add(new Kitab("Harry Potter", "J.K. Rowling"));
         books.add(new Kitab("The Hobbit", "J.R.R. Tolkien"));
         books.add(new Kitab("1984", "George Orwell"));
